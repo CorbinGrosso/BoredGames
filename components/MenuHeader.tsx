@@ -1,3 +1,8 @@
+/*
+ * MenuHeader component just creates a back button at the top of the screen
+ * while also acting as padding for the screen title.
+ */
+
 import React from 'react';
 import {
 Text,

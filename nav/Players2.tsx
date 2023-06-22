@@ -1,3 +1,7 @@
+/*
+ * Screen displaying a list of every game for 2 players.
+ */
+
 import React from 'react';
 import {
   StyleSheet,
@@ -13,9 +17,9 @@ import commonStyles from '../styles/commonStyles.tsx';
 const Players2 = ({ navigation }) => {
     return (
         <View>
-            <MenuHeader />
+            <MenuHeader navigation={navigation} />
             <View>
-                <Text style={commonStyles.headerText}>1-Player Games</Text>
+                <Text style={commonStyles.headerText}>2-Player Games</Text>
             </View>
         </View>
     );

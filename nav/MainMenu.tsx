@@ -1,3 +1,8 @@
+/*
+ * This file creates the Main Menu screen.
+ * It only has buttons leading to the screens for each amount of players.
+ */
+
 import React from 'react';
 import {
   StyleSheet,

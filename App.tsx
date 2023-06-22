@@ -1,3 +1,8 @@
+/*
+ * This file creates the navigation container and stack
+ *
+ */
+
 import React from 'react';
 import {
   StyleSheet,
@@ -9,14 +14,6 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import MainMenu from './nav/MainMenu.tsx';
 import Players1 from './nav/Players1.tsx';
 import Players2 from './nav/Players2.tsx';
-
-function DetailsScreen() {
-  return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Details Screen</Text>
-    </View>
-  );
-}
 
 const Stack = createNativeStackNavigator();
 

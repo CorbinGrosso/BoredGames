@@ -1,3 +1,7 @@
+/*
+ * Screen displaying a list of all games for 1 player.
+ */
+
 import React from 'react';
 import {
   StyleSheet,
@@ -15,7 +19,7 @@ import commonStyles from '../styles/commonStyles.tsx';
 const Players1 = ({ navigation }) => {
     return (
         <View>
-            <MenuHeader />
+            <MenuHeader navigation={navigation} />
             <View>
                 <Text style={commonStyles.headerText}>1-Player Games</Text>
             </View>

@@ -1,3 +1,7 @@
+/*
+ * Component to use as a button for each game on the screens that list all games.
+ */
+
 import React from 'react';
 import {
 Text,
