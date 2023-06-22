@@ -23,9 +23,6 @@ const Players1 = ({ navigation }) => {
             <View>
                 <Text style={commonStyles.headerText}>1-Player Games</Text>
             </View>
-            <ScrollView>
-                <GamePressable label="Tic-Tac-Toe" onPress={() => navigation.navigate("Players2")} />
-            </ScrollView>
         </View>
     );
 }

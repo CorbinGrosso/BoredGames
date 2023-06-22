@@ -14,6 +14,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import MainMenu from './nav/MainMenu.tsx';
 import Players1 from './nav/Players1.tsx';
 import Players2 from './nav/Players2.tsx';
+import TicTacToe from './nav/TicTacToe.tsx';
 
 const Stack = createNativeStackNavigator();
 
@@ -24,6 +25,7 @@ function App() {
                 <Stack.Screen name="Menu" component={MainMenu} options={{ title: 'Main Menu' }} />
                 <Stack.Screen name="Players1" component={Players1} />
                 <Stack.Screen name="Players2" component={Players2} />
+                <Stack.Screen name="TicTacToe" component={TicTacToe} />
             </Stack.Navigator>
         </NavigationContainer>
     );
